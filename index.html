@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Meu Portfólio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>André Costa - Freelancer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>André Luis</h1>
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+      <header class="header-principal">
+        <nav class="navegator">
+          <ul>
+            <li><h2><a href="index.html">André Luis</a></h2></li>
+            <li><a href="index.html">Página inicial</a></li>
+            <li id="about"><a href="#">Sobre</a></li> <!--IDÉIA É FAZER UMA PEQUENA CAIXA FLUTUANTE-->
+            <li id="project-page"><a href="#">Página do projeto</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Olá! Sou estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento web. Trabalho com HTML5 e CSS3, criando páginas simples, funcionais e responsivas.</p>
-  </section>
+      <main class="content-primary">
+        <section id="initial-info">
+          <p>Olá, meu nome é André Costa e sou estudante de Análise e Desenvolvimento de Sistemas. Estou sempre buscando aprender novas tecnologias e aprimorar minhas habilidades.</p> <img src="imagens/eu-grande2.jpg" alt="Foto de André Costa" class="foto-perfil">
+        </section>
 
-  <section id="servicos">
-    <h2>Serviços</h2>
-    <ul>
-      <li>Criação de páginas estáticas com HTML e CSS</li>
-      <li>Ajustes de layout e responsividade</li>
-      <li>Conversão de design (Figma, PDF) para código</li>
-    </ul>
-  </section>
+        <section id="about-me">
+          <h2>Sobre Mim</h2>
+          <p>Sou um estudante apaixonado por tecnologia e programação. Estou sempre em busca de novos desafios e oportunidades para aprender e crescer na área de desenvolvimento de sistemas.</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad dolores earum commodi totam eligendi perferendis animi laudantium obcaecati qui fuga corrupti excepturi laborum optio, vel corporis neque possimus at.</p> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore ducimus laboriosam dolores repellat iste. Nemo voluptates eligendi molestiae voluptatum qui soluta nulla explicabo expedita, quidem sit dignissimos dolores odio. Quaerat.</p>
+        </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Entre em contato comigo:</p>
-    <a href="mailto:andreramirescr5@email.com">andreramirescr5@gmail.com</a> <br />
-    <a href="https://wa.me/+5533999640968" target="_blank">WhatsApp</a>
-  </section>
+        <section id="projects">
+            <h2>Projetos Recentes</h2>
+              <article class="recent-projects">
+                <div><a href="#"><img src="imagens/eu-medio2.jpg" alt="Thumb do projeto"></a>
+                  <h3>Nome do projeto</h3>
+                </div>
+              </article>
+              <article class="recent-projects">
+                <div><a href="#"><img src="imagens/eu-medio2.jpg" alt="Thumb do projeto"></a>
+                  <h3>Nome do projeto</h3>
+                </div>
+              </article>
+              <article class="recent-projects">
+                <div><a href="#"><img src="imagens/eu-medio2.jpg" alt="Thumb do projeto"></a>
+                  <h3>Nome do projeto</h3>
+                </div>
+              </article>
+        </section>
 
-  <footer>
-    <p>&copy; 2025 André Luis. Todos os direitos reservados.</p>
-  </footer>
+        <section id="space-roll">
+          <img src="#" alt="Imagem de espaço">
+        </section>
+
+        <section id="contact">
+          <h3>Entre em contato comigo:</h3>
+          <p>Você pode me encontrar nas redes sociais ou enviar um e-mail para <a href=""></a>
+        </section>
+      </main>
 </body>
 </html>
